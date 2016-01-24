@@ -1,0 +1,194 @@
+---
+layout: default
+title: Page Foundation Example
+description: This is what comes with foundation install
+---
+
+
+    <div class="row">
+      <div class="large-12 columns">
+        <div class="panel">
+          <h1 class="mtl">We&rsquo;re stoked you want to try Foundation! </h1>
+          <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
+          <p>Once you've exhausted the fun in this document, you should check out:</p>
+          <div class="row">
+            <div class="large-4 medium-4 columns">
+          <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
+        </div>
+            <div class="large-4 medium-4 columns">
+              <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
+            </div>
+            <div class="large-4 medium-4 columns">
+              <p><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-8 medium-8 columns">
+        <h5>The Foundation Grid</h5>
+        <!-- Grid Example -->
+
+        <div class="row">
+          <div class="large-12 columns">
+            <div class="callout secondary">
+              <p><strong>This is a twelve column section in a row.</strong> See <a href="http://foundation.zurb.com/sites/docs/grid.html">Foundation Grid documentation</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-6 medium-6 columns">
+            <div class="callout panel">
+              <p>Six columns</p>
+            </div>
+          </div>
+          <div class="large-6 medium-6 columns">
+            <div class="callout panel">
+              <p>Six columns</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-4 medium-4 small-4 columns">
+            <div class="callout panel">
+              <p>Four columns</p>
+            </div>
+          </div>
+          <div class="large-4 medium-4 small-4 columns">
+            <div class="callout panel">
+              <p>Four columns</p>
+            </div>
+          </div>
+          <div class="large-4 medium-4 small-4 columns">
+            <div class="callout panel">
+              <p>Four columns</p>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+
+        <h1 class="mtl">Accordion</h1>
+        <ul class="accordion" data-accordion role="tablist">
+          <li class="accordion-item is-active">
+            <!-- The tab title needs role="tab", an href, a unique ID, and aria-controls. -->
+            <a href="#panel1d" role="tab" class="accordion-title" id="panel1d-heading" aria-controls="panel1d">Accordion 1</a>
+            <!-- The content pane needs an ID that matches the above href, role="tabpanel", data-tab-content, and aria-labelledby. -->
+            <div id="panel1d" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel1d-heading">
+              Panel 1. Lorem ipsum dolor
+            </div>
+          </li>
+          <li class="accordion-item">
+            <!-- The tab title needs role="tab", an href, a unique ID, and aria-controls. -->
+            <a href="#panel1d" role="tab" class="accordion-title" id="panel1d-heading" aria-controls="panel1d">Accordion 1</a>
+            <!-- The content pane needs an ID that matches the above href, role="tabpanel", data-tab-content, and aria-labelledby. -->
+            <div id="panel1d" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel1d-heading">
+              <img src="http://placehold.it/960x260/336666">
+            </div>
+          </li>
+          <li class="accordion-item">
+            <!-- The tab title needs role="tab", an href, a unique ID, and aria-controls. -->
+            <a href="#panel1d" role="tab" class="accordion-title" id="panel1d-heading" aria-controls="panel1d">Accordion 1</a>
+            <!-- The content pane needs an ID that matches the above href, role="tabpanel", data-tab-content, and aria-labelledby. -->
+            <div id="panel1d" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel1d-heading">
+              Panel 3. Lorem ipsum dolor
+            </div>
+          </li>
+        </ul>
+
+        <hr />
+
+        <h1 class="mtl">Orbit</h1>
+        <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+          <ul class="orbit-container">
+            <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
+            <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
+            <li class="is-active orbit-slide">
+              <div>
+                <h3 class="text-center">You can also throw some text in here!</h3>
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum rem, beatae ipsa consectetur quisquam. Rerum ratione, delectus atque tempore sed, suscipit ullam, beatae distinctio cupiditate ipsam eligendi tempora expedita.</p>
+                <h3 class="text-center">This Orbit slide has chill</h3>
+              </div>
+            </li>
+            <li class="orbit-slide">
+              <div>
+                <img src="http://placehold.it/960x260/663366">
+              </div>
+            </li>
+            <li class="orbit-slide">
+              <div>
+                <h3 class="text-center">You can also throw some text in here!</h3>
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum rem, beatae ipsa consectetur quisquam. Rerum ratione, delectus atque tempore sed, suscipit ullam, beatae distinctio cupiditate ipsam eligendi tempora expedita.</p>
+                <h3 class="text-center">This Orbit slide has chill</h3>
+              </div>
+            </li>
+            <li class="orbit-slide">
+              <div>
+                <img src="http://placehold.it/960x260/336666">
+              </div>
+            </li>
+          </ul>
+          <nav class="orbit-bullets">
+           <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+           <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+           <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+           <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+         </nav>
+        </div>
+
+        <hr>
+        <h1 class="mtl">Tabs</h1>
+
+        <ul class="tabs" data-tabs id="example-tabs">
+          <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Tab 1</a></li>
+          <li class="tabs-title"><a href="#panel2">Tab 2</a></li>
+          <li class="tabs-title"><a href="#panel3">Tab 3</a></li>
+          <li class="tabs-title"><a href="#panel4">Tab 4</a></li>
+          <li class="tabs-title"><a href="#panel5">Tab 5</a></li>
+          <li class="tabs-title"><a href="#panel6">Tab 6</a></li>
+        </ul>
+
+        <div class="tabs-content" data-tabs-content="example-tabs">
+          <div class="tabs-panel is-active" id="panel1">
+            <h6>one</h6>
+            <p>Check me out! I'm a super cool Tab panel with text content!</p>
+          </div>
+          <div class="tabs-panel" id="panel2">
+            <img src="http://placehold.it/350x150/336666">
+          </div>
+          <div class="tabs-panel" id="panel3">
+            <h6>three</h6>
+            <p>Check me out! I'm a super cool Tab panel with text content!</p>
+          </div>
+          <div class="tabs-panel" id="panel4">
+            <img src="http://placehold.it/350x150/663366">
+          </div>
+          <div class="tabs-panel" id="panel5">
+            <h6>five</h6>
+            <p>Check me out! I'm a super cool Tab panel with text content!</p>
+          </div>
+          <div class="tabs-panel" id="panel6">
+            <img src="http://placehold.it/350x150/666633">
+          </div>
+        </div>
+
+      </div>
+
+      <div class="large-4 medium-4 columns">
+        <h5>Try one of these buttons:</h5>
+        <p><a href="#" class="small button">Simple Button</a><br/>
+        <a href="#" class="small hollow button">Hollow Button</a><br/>
+        <a href="#" class="tiny round button">Tiny Button</a><br/>
+        <a href="#" class="tiny hollow round button">Tiny Hollow Button</a><br/>
+        <a href="#" class="medium success button">Success Btn</a><br/>
+        <a href="#" class="medium alert button">Alert Btn</a><br/>
+        <a href="#" class="medium secondary button">Secondary Btn</a></p>
+        <div class="panel">
+          <h5>So many components, girl!</h5>
+          <p>A whole kitchen sink of goodies comes with Foundation. Checkout the docs to see them all, along with details on making them your own.</p>
+          <a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>
+        </div>
+      </div>
+    </div>

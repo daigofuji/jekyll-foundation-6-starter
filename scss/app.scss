@@ -1,5 +1,13 @@
 @charset 'utf-8';
 
+/* 
+	app.css 
+	part of http://daigofuji.github.io/jekyll-foundation-56-starter/ by Daigo Fujiwara (@DaigoFuji)
+	http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml#CSS_Style_Rules
+	http://csslint.net/ (Will hurt your feelings)
+	http://cssguidelin.es/
+*/
+
 @import 'settings';
 @import 'foundation';
 @import 'motion-ui';
@@ -42,3 +50,9 @@
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+/* padding and margins */
+@import "padding-margin";
+
+/* custom */
+@import "custom";

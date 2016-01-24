@@ -1,4 +1,11 @@
 @charset "UTF-8";
+/* 
+	app.css 
+	part of http://daigofuji.github.io/jekyll-foundation-56-starter/ by Daigo Fujiwara (@DaigoFuji)
+	http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml#CSS_Style_Rules
+	http://csslint.net/ (Will hurt your feelings)
+	http://cssguidelin.es/
+*/
 /**
  * Foundation for Sites by ZURB
  * Version 6.1.2
@@ -380,7 +387,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
@@ -1209,7 +1216,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   color: inherit;
@@ -1259,12 +1266,12 @@ h6 {
     font-size: 1rem; } }
 
 a {
-  color: #2199e8;
+  color: #8bad93;
   text-decoration: none;
   line-height: inherit;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #1585cf; }
+    color: #719b7b; }
   a img {
     border: 0; }
 
@@ -1464,12 +1471,12 @@ kbd {
   padding: 0.85em 1em;
   margin: 0 0 1rem 0;
   font-size: 0.9rem;
-  background-color: #2199e8;
+  background-color: #8bad93;
   color: #fff; }
   [data-whatinput='mouse'] .button {
     outline: 0; }
   .button:hover, .button:focus {
-    background-color: #1583cc;
+    background-color: #709a79;
     color: #fff; }
   .button.tiny {
     font-size: 0.6rem; }
@@ -1483,10 +1490,10 @@ kbd {
     margin-left: 0;
     margin-right: 0; }
   .button.primary {
-    background-color: #2199e8;
+    background-color: #8bad93;
     color: #fff; }
     .button.primary:hover, .button.primary:focus {
-      background-color: #147cc0;
+      background-color: #679271;
       color: #fff; }
   .button.secondary {
     background-color: #777;
@@ -1513,19 +1520,19 @@ kbd {
       background-color: #cc8b00;
       color: #fff; }
   .button.hollow {
-    border: 1px solid #2199e8;
-    color: #2199e8; }
+    border: 1px solid #8bad93;
+    color: #8bad93; }
     .button.hollow, .button.hollow:hover, .button.hollow:focus {
       background-color: transparent; }
     .button.hollow:hover, .button.hollow:focus {
-      border-color: #0c4d78;
-      color: #0c4d78; }
+      border-color: #415b47;
+      color: #415b47; }
     .button.hollow.primary {
-      border: 1px solid #2199e8;
-      color: #2199e8; }
+      border: 1px solid #8bad93;
+      color: #8bad93; }
       .button.hollow.primary:hover, .button.hollow.primary:focus {
-        border-color: #0c4d78;
-        color: #0c4d78; }
+        border-color: #415b47;
+        color: #415b47; }
     .button.hollow.secondary {
       border: 1px solid #777;
       color: #777; }
@@ -1880,7 +1887,7 @@ select {
   padding: 1.25rem 1rem;
   line-height: 1;
   font-size: 0.75rem;
-  color: #2199e8;
+  color: #8bad93;
   position: relative;
   border-bottom: 1px solid #e6e6e6; }
   .accordion-title:hover, .accordion-title:focus {
@@ -1908,7 +1915,7 @@ select {
     width: 0;
     height: 0;
     border: inset 6px;
-    border-color: #2199e8 transparent transparent;
+    border-color: #8bad93 transparent transparent;
     border-top-style: solid;
     border-bottom-width: 0;
     position: absolute;
@@ -1931,8 +1938,8 @@ select {
   font-size: 0.6rem;
   text-align: center;
   border-radius: 50%;
-  background: #2199e8;
-  color: #fefefe; }
+  background: #8bad93;
+  color: #0a0a0a; }
   .badge.secondary {
     background: #777;
     color: #fefefe; }
@@ -1968,7 +1975,7 @@ select {
       top: 1px;
       opacity: 1; }
   .breadcrumbs a {
-    color: #2199e8; }
+    color: #8bad93; }
     .breadcrumbs a:hover {
       text-decoration: underline; }
   .breadcrumbs .disabled {
@@ -2004,11 +2011,11 @@ select {
       display: table-cell;
       float: none; }
   .button-group.primary .button {
-    background-color: #2199e8;
-    color: #fefefe; }
+    background-color: #8bad93;
+    color: #0a0a0a; }
     .button-group.primary .button:hover, .button-group.primary .button:focus {
-      background-color: #147cc0;
-      color: #fefefe; }
+      background-color: #679271;
+      color: #0a0a0a; }
   .button-group.secondary .button {
     background-color: #777;
     color: #fefefe; }
@@ -2062,7 +2069,7 @@ select {
   .callout > :last-child {
     margin-bottom: 0; }
   .callout.primary {
-    background-color: #def0fc; }
+    background-color: #eef3ef; }
   .callout.secondary {
     background-color: #ebebeb; }
   .callout.success {
@@ -2129,7 +2136,7 @@ select {
     width: 0;
     height: 0;
     border: inset 6px;
-    border-color: transparent transparent transparent #2199e8;
+    border-color: transparent transparent transparent #8bad93;
     border-left-style: solid;
     border-right-width: 0;
     position: absolute;
@@ -2143,7 +2150,7 @@ select {
   width: 0;
   height: 0;
   border: inset 6px;
-  border-color: transparent #2199e8 transparent transparent;
+  border-color: transparent #8bad93 transparent transparent;
   border-right-style: solid;
   border-left-width: 0;
   border-left-width: 0;
@@ -2213,7 +2220,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: #2199e8 transparent transparent;
+    border-color: #8bad93 transparent transparent;
     border-top-style: solid;
     border-bottom-width: 0;
     position: absolute;
@@ -2225,7 +2232,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent #2199e8 transparent transparent;
+    border-color: transparent #8bad93 transparent transparent;
     border-right-style: solid;
     border-left-width: 0;
     float: left;
@@ -2237,7 +2244,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent transparent transparent #2199e8;
+    border-color: transparent transparent transparent #8bad93;
     border-left-style: solid;
     border-right-width: 0; }
   .is-dropdown-submenu-parent.is-left-arrow.opens-inner .is-dropdown-submenu {
@@ -2296,8 +2303,8 @@ select {
   white-space: nowrap;
   cursor: default;
   border-radius: 0;
-  background: #2199e8;
-  color: #fefefe; }
+  background: #8bad93;
+  color: #0a0a0a; }
   .label.secondary {
     background: #777;
     color: #fefefe; }
@@ -2443,7 +2450,7 @@ body {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   z-index: 1;
-  box-shadow: 0 0 10px rgba(10, 10, 10, 0.5); }
+  box-shadow: 0 0 10px rgba(138, 138, 138, 0.3); }
 
 .js-off-canvas-exit {
   display: none;
@@ -2452,13 +2459,13 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(254, 254, 254, 0.25);
+  background: rgba(254, 254, 254, 0.6);
   cursor: pointer;
   transition: background 0.5s ease; }
 
 .off-canvas {
   position: absolute;
-  background: #e6e6e6;
+  background: #fefefe;
   z-index: -1;
   max-height: 100%;
   overflow-y: auto;
@@ -2613,8 +2620,8 @@ body {
       background: #e6e6e6; }
   .pagination .current {
     padding: 0.1875rem 0.625rem;
-    background: #2199e8;
-    color: #fefefe;
+    background: #8bad93;
+    color: #0a0a0a;
     cursor: default; }
   .pagination .disabled {
     padding: 0.1875rem 0.625rem;
@@ -2645,7 +2652,7 @@ body {
   margin-bottom: 1rem;
   border-radius: 0; }
   .progress.primary .progress-meter {
-    background-color: #2199e8; }
+    background-color: #8bad93; }
   .progress.secondary .progress-meter {
     background-color: #777; }
   .progress.success .progress-meter {
@@ -2660,7 +2667,7 @@ body {
   display: block;
   width: 0%;
   height: 100%;
-  background-color: #2199e8; }
+  background-color: #8bad93; }
 
 .progress-meter-text {
   position: absolute;
@@ -2714,7 +2721,7 @@ body {
   display: inline-block;
   width: 1.4rem;
   height: 1.4rem;
-  background-color: #2199e8;
+  background-color: #8bad93;
   transition: all 0.2s ease-in-out;
   -ms-touch-action: manipulation;
       touch-action: manipulation;
@@ -2722,7 +2729,7 @@ body {
   [data-whatinput='mouse'] .slider-handle {
     outline: 0; }
   .slider-handle:hover {
-    background-color: #1583cc; }
+    background-color: #709a79; }
   .slider-handle.is-dragging {
     transition: all 0s linear; }
 
@@ -2888,7 +2895,7 @@ body.is-reveal-open {
             transform: translate3d(0, 0, 0);
     border-radius: 0; }
   input:checked ~ .switch-paddle {
-    background: #2199e8; }
+    background: #8bad93; }
     input:checked ~ .switch-paddle::after {
       left: 2.25rem; }
   [data-whatinput='mouse'] input:focus ~ .switch-paddle {
@@ -3025,11 +3032,11 @@ table.hover tr:nth-of-type(even):hover {
     background: transparent; }
 
 .tabs.primary {
-  background: #2199e8; }
+  background: #8bad93; }
   .tabs.primary > li > a {
-    color: #fefefe; }
+    color: #0a0a0a; }
     .tabs.primary > li > a:hover, .tabs.primary > li > a:focus {
-      background: #1893e4; }
+      background: #82a78a; }
 
 .tabs-title {
   float: left; }
@@ -3038,7 +3045,7 @@ table.hover tr:nth-of-type(even):hover {
     padding: 1.25rem 1.5rem;
     line-height: 1;
     font-size: 12px;
-    color: #2199e8; }
+    color: #8bad93; }
     .tabs-title > a:hover {
       background: #fefefe; }
     .tabs-title > a:focus, .tabs-title > a[aria-selected='true'] {
@@ -3070,11 +3077,11 @@ table.hover tr:nth-of-type(even):hover {
   border-radius: 0;
   margin-bottom: 1rem; }
   .thumbnail:hover, .thumbnail:focus {
-    box-shadow: 0 0 6px 1px rgba(33, 153, 232, 0.5); }
+    box-shadow: 0 0 6px 1px rgba(139, 173, 147, 0.5); }
 
 .title-bar {
-  background: #0a0a0a;
-  color: #fefefe;
+  background: #fefefe;
+  color: #8bad93;
   padding: 0.5rem; }
   .title-bar::before, .title-bar::after {
     content: ' ';
@@ -3110,13 +3117,13 @@ table.hover tr:nth-of-type(even):hover {
     display: block;
     width: 100%;
     height: 2px;
-    background: #fefefe;
+    background: #8bad93;
     top: 0;
     left: 0;
-    box-shadow: 0 7px 0 #fefefe, 0 14px 0 #fefefe; }
+    box-shadow: 0 7px 0 #8bad93, 0 14px 0 #8bad93; }
   .menu-icon:hover::after {
-    background: #cacaca;
-    box-shadow: 0 7px 0 #cacaca, 0 14px 0 #cacaca; }
+    background: #0a0a0a;
+    box-shadow: 0 7px 0 #0a0a0a, 0 14px 0 #0a0a0a; }
 
 .menu-icon.dark {
   position: relative;
@@ -3223,7 +3230,7 @@ table.hover tr:nth-of-type(even):hover {
     clear: both; }
   .top-bar,
   .top-bar ul {
-    background-color: #e6e6e6; }
+    background-color: #fefefe; }
   .top-bar input {
     width: 200px;
     margin-right: 1rem; }
@@ -3883,3 +3890,142 @@ table.hover tr:nth-of-type(even):hover {
 .long-delay {
   -webkit-animation-delay: 700ms !important;
           animation-delay: 700ms !important; }
+
+/* padding and margins */
+/**************** padding and margin settings *****************
+
+	Borrowed From Kianosh Pourian's excellent "Sass in Depth" book
+	https://github.com/kianoshp/SASS-CSS-Boilerplate/blob/master/sass/padding-margin.scss
+
+	Setting padding and margins to be added to different sections
+	This sections contains individual setting and also a mixin
+	to be able to add to different sections
+
+	spacing helpers
+	p,m = padding,margin
+	a,t,r,b,l,v,h = all,top,right,bottom,left,vertical,horizontal
+	s,m,l,n = small(5px),medium(10px),large(20px),none(0px)
+
+	This scss will create an example of the following:
+	.pts, .pas, .pvs {
+  		padding-top: 5px !important; }
+
+	.ptm, .pam, .pvm {
+  		padding-top: 10px !important; }
+
+	.ptl, .pal, .pvl {
+  		padding-top: 20px !important; }
+
+**************************************************************/
+.pts, .pas, .pvs {
+  padding-top: 0.625rem !important; }
+
+.ptm, .pam, .pvm {
+  padding-top: 1.25rem !important; }
+
+.ptl, .pal, .pvl {
+  padding-top: 2.5rem !important; }
+
+.ptn, .pan, .pvn {
+  padding-top: 0rem !important; }
+
+.prs, .pas, .phs {
+  padding-right: 0.625rem !important; }
+
+.prm, .pam, .phm {
+  padding-right: 1.25rem !important; }
+
+.prl, .pal, .phl {
+  padding-right: 2.5rem !important; }
+
+.prn, .pan, .phn {
+  padding-right: 0rem !important; }
+
+.pbs, .pas, .pvs {
+  padding-bottom: 0.625rem !important; }
+
+.pbm, .pam, .pvm {
+  padding-bottom: 1.25rem !important; }
+
+.pbl, .pal, .pvl {
+  padding-bottom: 2.5rem !important; }
+
+.pbn, .pan, .pvn {
+  padding-bottom: 0rem !important; }
+
+.pls, .pas, .phs {
+  padding-left: 0.625rem !important; }
+
+.plm, .pam, .phm {
+  padding-left: 1.25rem !important; }
+
+.pll, .pal, .phl {
+  padding-left: 2.5rem !important; }
+
+.pln, .pan, .phn {
+  padding-left: 0rem !important; }
+
+.mts, .mas, .mvs {
+  margin-top: 0.625rem !important; }
+
+.mtm, .mam, .mvm {
+  margin-top: 1.25rem !important; }
+
+.mtl, .mal, .mvl {
+  margin-top: 2.5rem !important; }
+
+.mtn, .man, .mvn {
+  margin-top: 0rem !important; }
+
+.mrs, .mas, .mhs {
+  margin-right: 0.625rem !important; }
+
+.mrm, .mam, .mhm {
+  margin-right: 1.25rem !important; }
+
+.mrl, .mal, .mhl {
+  margin-right: 2.5rem !important; }
+
+.mrn, .man, .mhn {
+  margin-right: 0rem !important; }
+
+.mbs, .mas, .mvs {
+  margin-bottom: 0.625rem !important; }
+
+.mbm, .mam, .mvm {
+  margin-bottom: 1.25rem !important; }
+
+.mbl, .mal, .mvl {
+  margin-bottom: 2.5rem !important; }
+
+.mbn, .man, .mvn {
+  margin-bottom: 0rem !important; }
+
+.mls, .mas, .mhs {
+  margin-left: 0.625rem !important; }
+
+.mlm, .mam, .mhm {
+  margin-left: 1.25rem !important; }
+
+.mll, .mal, .mhl {
+  margin-left: 2.5rem !important; }
+
+.mln, .man, .mhn {
+  margin-left: 0rem !important; }
+
+/***************** end padding and margin settings *************/
+/* custom */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 200; }
+
+.font-light {
+  font-weight: 200; }
+
+.font-weight-normal {
+  font-weight: 400; }
+
+.font-bold {
+  font-weight: 700; }
+
+.font-heavy {
+  font-weight: 800; }

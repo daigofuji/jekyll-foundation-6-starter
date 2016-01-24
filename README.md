@@ -36,12 +36,11 @@ If you don't have it, install [node.js](https://nodejs.org/en/). Easyest way it 
   `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 then 
   `brew install node`
-and install npm and grunt globally by running 
-  `sudo npm install npm grunt-cli -g`
-to install bower and grunt globally.
+and install npm and gulp globally by running 
+  `sudo npm install npm gulp -g`
 
-Run grunt to compile css from sass by simply run `grunt` from your terminal within your repo. 
-It will launch watch by default. <code>control-c</code> to stop. If you only want the css compiled once, run `grunt sass`
+Run gulp to compile css from sass by simply run `gulp` from your terminal within your repo. 
+It will launch watch by default. <code>control-c</code> to stop. If you only want the css compiled once, run `gulp sass`
 
 To run jekyll locally to test your website while developing, run  `bundle exec jekyll serve --watch` (requires ruby)
 

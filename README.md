@@ -1,10 +1,10 @@
 # jekyll-foundation-6-starter
 
-Start [a github pages](https://pages.github.com/) website powerd by [Jekyll](http://jekyllrb.com/docs/quickstart/) using [Foundation/SCSS](http://foundation.zurb.com/sites/docs/installation.html#command-line-tool.html) in under 5 minutes! 
+Start [a github pages](https://pages.github.com/) website powered by [Jekyll](http://jekyllrb.com/docs/quickstart/) using [Foundation/SCSS](http://foundation.zurb.com/sites/docs/installation.html#command-line-tool.html) in under 5 minutes! 
 
 ### What it is.
 
-Ever wanted a simple but nice looking responsive website as your project page or page for your repo? Are you in [a hackathon](http://baseballhackday.com) needing to put up a working website in minutes? I do. Here is what I do, and I am sharing for you to use it, free. Free as in free speach AND free beer.
+Ever wanted a simple but nice looking responsive website as your project page or page for your repo? Are you in [a hackathon](http://baseballhackday.com) needing to put up a working website in minutes? I do. Here is what I do, and I am sharing for you to use it, free. Free as in free speech AND free beer.
 
 You can see [the working example site here](http://daigofuji.github.io/jekyll-foundation-6-starter/)
 
@@ -12,7 +12,7 @@ You can see [the working example site here](http://daigofuji.github.io/jekyll-fo
 See [github documentation](https://help.github.com/articles/user-organization-and-project-pages/)
 
 1. Fork or copy this repo to your user or project
-2. From the `settings` rename the repo to `username.github.io` naming scheme.
+2. From the `settings` rename the repo to `username.github.io` naming scheme. (For this you need to use `master` branch)
 
 ### For Project Pages
 See [github documentation](https://help.github.com/articles/user-organization-and-project-pages/#project-pages)
@@ -25,14 +25,14 @@ See [github documentation](https://help.github.com/articles/user-organization-an
 ### To edit contents:
 1. edit `_config.yml`
 2. edit html/md files (`_layouts/default.html` is the base)
-3. edit sass and run `grunt` (Try [editing `scss/_stettings.scss`](http://foundation.zurb.com/sites/docs/sass.html))
+3. edit sass and run `gulp` (Try [editing `scss/_stettings.scss`](http://foundation.zurb.com/sites/docs/sass.html))
 4. edit `_include/nav.html` 
 
-Use at your own resk, and follw licence restriction of each products used. Most are MIT (OK to use commercially).
+Use at your own risk, and follow license restriction of each products used. Most are MIT (OK to use commercially).
 
 ### Tools used, and useful commands
 
-If you don't have it, install [node.js](https://nodejs.org/en/). Easyest way it to use [Homebrew](http://brew.sh/) by
+If you don't have it, install [node.js](https://nodejs.org/en/). Easiest way it to use [Homebrew](http://brew.sh/) by
   `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 then 
   `brew install node`

@@ -19,5 +19,8 @@
     "test",
     "tests"
   ],
-  "private": true
+  "private": true,
+  "resolutions": {
+    "what-input": "~2.0.0"
+  }
 }

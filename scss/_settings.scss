@@ -85,7 +85,7 @@ $breakpoint-classes: (small medium large);
 
 $grid-row-width: $global-width;
 $grid-column-count: 12;
-$grid-column-responsive-gutter: (
+$grid-column-gutter: (
   small: 20px,
   medium: 30px,
 );
@@ -385,7 +385,7 @@ $offcanvas-transition-timing: ease;
 $offcanvas-fixed-reveal: true;
 $offcanvas-exit-background: rgba($white, 0.6);
 $maincontent-class: 'off-canvas-content';
-$maincontent-shadow: 0 0 10px rgba($dark_gray, 0.3);
+$maincontent-shadow: none;
 
 // 24. Orbit
 // ---------

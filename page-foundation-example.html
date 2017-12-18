@@ -4,11 +4,11 @@ title: Page Foundation Example
 description: This is what comes with foundation install
 ---
 
-      <div class="grid-x grid-padding-x">
+      <div class="grid-x grid-padding-x" id="top">
         <div class="large-12 cell">
           <div class="callout">
             <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-            <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
+            <p>To get going, <a href="https://github.com/zurb/foundation-zurb-template/blob/master/src/pages/index.html">this file (index.html)</a> includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
             <p>Once you've exhausted the fun in this document, you should check out:</p>
             <div class="grid-x grid-padding-x">
               <div class="large-4 medium-4 cell">
@@ -75,7 +75,7 @@ description: This is what comes with foundation install
             </div>
           </div>
 
-          <hr />
+          <hr class="mvl" />
 
           <h5>We bet you&rsquo;ll need a form somewhere:</h5>
           <form>
@@ -153,44 +153,50 @@ description: This is what comes with foundation install
 
 
     <div class="grid-x grid-padding-x">
-      <div class="large-8 medium-8 cell">
+      <div class="large-8 medium-8 medium-offset-2 cell">
+        <h1 class="text-center mtl font-heavy">Javascript Examples</h1>
 
+        <h4 class="mtl"><a href="https://foundation.zurb.com/sites/docs/responsive-accordion-tabs.html">Responsive Accordion Tabs <i class="fas fa-external-link-alt fa-xs"></i> </a></h4>
 
-        <h1 class="mtl">Accordion</h1>
-        <ul class="accordion" data-accordion>
-          <li class="accordion-item" data-accordion-item>
-            <a href="#" class="accordion-title">Accordion 1</a>
-            <div class="accordion-content" data-tab-content>
-              <p>Panel 1. Lorem ipsum dolor</p>
-              <a href="#">Nowhere to Go</a>
-            </div>
-          </li>
-          <li class="accordion-item" data-accordion-item>
-            <a href="#" class="accordion-title">Accordion 2</a>
-            <div class="accordion-content" data-tab-content>
-              <p>Panel 2. Lorem ipsum dolor</p>
-              <a href="#">Nowhere to Go</a>
-            </div>
-          </li>
-          <li class="accordion-item is-active" data-accordion-item>
-            <a href="#" class="accordion-title">Accordion 3</a>
-            <div class="accordion-content" data-tab-content>
-              <p>Panel 3. Lorem ipsum dolor</p>
-              <a href="#">Nowhere to Go</a>
-            </div>
-          </li>
-          <li class="accordion-item" data-accordion-item>
-            <a href="#" class="accordion-title">Accordion 4</a>
-            <div class="accordion-content" data-tab-content>
-              <p>Panel 4. Lorem ipsum dolor</p>
-              <a href="#">Nowhere to Go</a>
-            </div>
-          </li>
+        <ul class="tabs" data-responsive-accordion-tabs="tabs medium-accordion large-tabs" id="example-tabs">
+          <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Tab 1</a></li>
+          <li class="tabs-title"><a href="#panel2">Tab 2</a></li>
+          <li class="tabs-title"><a href="#panel3">Tab 3</a></li>
+          <li class="tabs-title"><a href="#panel4">Tab 4</a></li>
+          <li class="tabs-title"><a href="#panel5">Tab 5</a></li>
+          <li class="tabs-title"><a href="#panel6">Tab 6</a></li>
         </ul>
 
-        <hr />
+        <div class="tabs-content" data-tabs-content="example-tabs">
+          <div class="tabs-panel is-active" id="panel1">
+            <p>one</p>
+            <p>Check me out! I'm a super cool Tab panel with text content!</p>
+          </div>
+          <div class="tabs-panel" id="panel2">
+            <p>two</p>
+            <img class="thumbnail" src="http://placehold.it/960x260/663366">
+          </div>
+          <div class="tabs-panel" id="panel3">
+            <p>three</p>
+            <p>Check me out! I'm a super cool Tab panel with text content!</p>
+          </div>
+          <div class="tabs-panel" id="panel4">
+            <p>four</p>
+            <img class="thumbnail" src="http://placehold.it/960x260/336666">
+          </div>
+          <div class="tabs-panel" id="panel5">
+            <p>five</p>
+            <p>Check me out! I'm a super cool Tab panel with text content!</p>
+          </div>
+          <div class="tabs-panel" id="panel6">
+            <p>six</p>
+            <img class="thumbnail" src="http://placehold.it/960x260/666633">
+          </div>
+        </div>
 
-        <h1 class="mtl">Orbit</h1>
+        <hr class="mvl" />
+
+        <h4 class="mtl"><a href="https://foundation.zurb.com/sites/docs/orbit.html">Orbit <i class="fas fa-external-link-alt fa-xs"></i> </a></h4>
         <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
           <ul class="orbit-container">
             <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
@@ -228,45 +234,95 @@ description: This is what comes with foundation install
          </nav>
         </div>
 
-        <hr>
-        <h1 class="mtl">Tabs</h1>
+        <hr class="mvl" />
 
-        <ul class="tabs" data-tabs id="example-tabs">
-          <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Tab 1</a></li>
-          <li class="tabs-title"><a href="#panel2">Tab 2</a></li>
-          <li class="tabs-title"><a href="#panel3">Tab 3</a></li>
-          <li class="tabs-title"><a href="#panel4">Tab 4</a></li>
-          <li class="tabs-title"><a href="#panel5">Tab 5</a></li>
-          <li class="tabs-title"><a href="#panel6">Tab 6</a></li>
+        <h4 class="mtl"><a href="https://foundation.zurb.com/sites/docs/reveal.html">Reveal <i class="fas fa-external-link-alt fa-xs"></i> </a></h4>
+
+        <div class="reveal" id="exampleModal1" data-reveal>
+          <h1>Awesome. I Have It.</h1>
+          <p class="lead">Your couch. It is mine.</p>
+          <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+          <button class="close-button" data-close aria-label="Close modal" type="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <p><button class="button" data-open="exampleModal1">Click me for a modal</button></p>
+
+        <hr class="mvl" />
+
+        <h4 class="mtl"><a href="https://foundation.zurb.com/sites/docs/smooth-scroll.html">Smooth Scroll <i class="fas fa-external-link-alt fa-xs"></i> </a></h4>
+        <p><a href="#top" data-smooth-scroll>Smooth Scroll to Top </a></p>
+
+        <hr class="mvl" />
+
+        <h4 class="mtl"><a href="https://foundation.zurb.com/sites/docs/drilldown-menu.html">Drilldown Menu <i class="fas fa-external-link-alt fa-xs"></i> </a></h4>
+
+        <ul class="vertical menu drilldown" data-drilldown>
+          <li><a href="#">American League</a>
+            <ul class="menu vertical nested">
+              <li><a href="#">East</a>
+                <ul class="menu vertical nested">
+                  <li><a href="http://orioles.com/">Baltimore Orioles</a></li>
+                  <li><a href="http://redsox.com/">Boston Red Sox</a></li>
+                  <li><a href="http://newyork.yankees.mlb.com/">New York Yankees</a></li>
+                  <li><a href="http://tampabay.rays.mlb.com/">Tampa Bay Rays</a></li>
+                  <li><a href="http://toronto.bluejays.mlb.com/">Toronto Blue Jays</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Central</a>
+                <ul class="menu vertical nested">
+                  <li><a href="http://chicago.whitesox.mlb.com/">Chicago White Sox</a></li>
+                  <li><a href="http://cleveland.indians.mlb.com/">Cleveland Indians</a></li>
+                  <li><a href="http://detroit.tigers.mlb.com/">Detroit Tigers</a></li>
+                  <li><a href="http://kansascity.royals.mlb.com/">Kansas City Royals</a></li>
+                  <li><a href="http://minnesota.twins.mlb.com/">Minnesota Twins</a></li>
+                </ul>
+              </li>
+              <li><a href="#">West</a>
+                <ul class="menu vertical nested">
+                  <li><a href="http://houston.astros.mlb.com/">Houston Astros</a></li>
+                  <li><a href="http://losangeles.angels.mlb.com/">Los Angeles Angels</a></li>
+                  <li><a href="http://oakland.athletics.mlb.com/">Oakland Athletics</a></li>
+                  <li><a href="http://seattle.mariners.mlb.com/">Seattle Mariners</a></li>
+                  <li><a href="http://texas.rangers.mlb.com/">Texas Rangers</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#">National League</a>
+            <ul class="menu vertical nested">
+              <li><a href="#">East</a>
+                <ul class="menu vertical nested">
+                  <li><a href="http://atlanta.braves.mlb.com/">Atlanta Braves</a></li>
+                  <li><a href="http://miami.marlins.mlb.com/">Miami Marlins</a></li>
+                  <li><a href="http://newyork.mets.mlb.com/">New York Mets</a></li>
+                  <li><a href="http://philadelphia.phillies.mlb.com/">Philadelphia Phillies</a></li>
+                  <li><a href="http://washington.nationals.mlb.com/">Washington Nationals</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Central</a>
+                <ul class="menu vertical nested">
+                  <li><a href="http://chicago.cubs.mlb.com/">Chicago Cubs</a></li>
+                  <li><a href="http://cincinnati.reds.mlb.com/">Cincinnati Reds</a></li>
+                  <li><a href="http://milwaukee.brewers.mlb.com/">Milwaukee Brewers</a></li>
+                  <li><a href="http://pittsburgh.pirates.mlb.com/">Pittsburgh Pirates</a></li>
+                  <li><a href="http://stlouis.cardinals.mlb.com/">St. Louis Cardinals</a></li>
+                </ul>
+              </li>
+              <li><a href="#">West</a>
+                <ul class="menu vertical nested">
+                  <li><a href="http://arizona.diamondbacks.mlb.com/">Arizona Diamondbacks</a></li>
+                  <li><a href="http://colorado.rockies.mlb.com/">Colorado Rockies</a></li>
+                  <li><a href="http://losangeles.dodgers.mlb.com/">Los Angeles Dodgers</a></li>
+                  <li><a href="http://sandiego.padres.mlb.com/">San Diego Padres</a></li>
+                  <li><a href="http://sanfrancisco.giants.mlb.com/">San Francisco Giants</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
         </ul>
 
-        <div class="tabs-content" data-tabs-content="example-tabs">
-          <div class="tabs-panel is-active" id="panel1">
-            <h6>one</h6>
-            <p>Check me out! I'm a super cool Tab panel with text content!</p>
-          </div>
-          <div class="tabs-panel" id="panel2">
-            <img src="http://placehold.it/350x150/336666">
-          </div>
-          <div class="tabs-panel" id="panel3">
-            <h6>three</h6>
-            <p>Check me out! I'm a super cool Tab panel with text content!</p>
-          </div>
-          <div class="tabs-panel" id="panel4">
-            <img src="http://placehold.it/350x150/663366">
-          </div>
-          <div class="tabs-panel" id="panel5">
-            <h6>five</h6>
-            <p>Check me out! I'm a super cool Tab panel with text content!</p>
-          </div>
-          <div class="tabs-panel" id="panel6">
-            <img src="http://placehold.it/350x150/666633">
-          </div>
-        </div>
 
-      </div>
 
-      <div class="large-4 medium-4 cell">
-        <!-- Right column -->
       </div>
     </div>

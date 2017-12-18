@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css" />
+</head>
+<body>
+	<div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+		<ul class="menu vertical">
+			<!-- Your menu or Off-canvas content goes here -->
+			<li><a href="">Link</a></li>
+			<li><a href="">Link</a></li>
+			<li><a href="">Link</a></li>
+		</ul>
+	</div>
+<div class="off-canvas-content" data-off-canvas-content>
+  <!-- Your page content lives here -->
+  <button type="button" class="button" data-toggle="offCanvas">Open Menu</button>
+  {{ content }}
+</div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js"></script>
+    <script>$(document).ready(function(){
+    $(document).foundation();
+});</script>
+</html>
